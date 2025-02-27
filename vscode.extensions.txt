@@ -1,0 +1,14 @@
+Aura Theme
+Symbols
+WSL
+Biome
+Docker
+GitHub Copilot
+GitHub Copilot Chat
+Go
+Headwind
+Prisma
+Pylance
+Python
+Python Debugger
+Tailwind CSS IntelliSense
