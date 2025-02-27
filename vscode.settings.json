@@ -1,0 +1,44 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.2,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env": ".env*"
+  },
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "files.autoSave": "afterDelay",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "symbols.files.associations": {
+    "*.module.ts": "nest"
+  },
+  "terminal.integrated.copyOnSelection": true,
+  "update.showReleaseNotes": false,
+  "window.commandCenter": false,
+  "workbench.colorTheme": "Aura Soft Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+}
