@@ -1,11 +1,13 @@
 {
   "breadcrumbs.enabled": false,
+  "editor.detectIndentation": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.2,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -23,7 +25,8 @@
     "wsl.localhost"
   ],
   "symbols.files.associations": {
-    "*.module.ts": "nest"
+    "*.module.ts": "nest",
+    "*.service.ts": "nest"
   },
   "terminal.integrated.copyOnSelection": true,
   "update.showReleaseNotes": false,
@@ -32,6 +35,9 @@
   "workbench.iconTheme": "symbols",
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -40,5 +46,8 @@
   },
   "[prisma]": {
     "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
   },
 }
